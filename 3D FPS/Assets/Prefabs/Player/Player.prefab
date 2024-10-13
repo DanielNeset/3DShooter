@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8099781329847483865}
   - component: {fileID: 1064183304487435847}
   - component: {fileID: 1019981876303435956}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -206,7 +206,7 @@ GameObject:
   - component: {fileID: 1780182766384227892}
   - component: {fileID: 5465622010691163228}
   - component: {fileID: 870534261948247804}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -355,6 +355,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2213863958323212369}
     m_Modifications:
+    - target: {fileID: 1369516578859212625, guid: 7448512ee8cc90e43928143eb99ecbf9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1448950265451631324, guid: 7448512ee8cc90e43928143eb99ecbf9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -398,6 +402,14 @@ PrefabInstance:
     - target: {fileID: 1448950265451631325, guid: 7448512ee8cc90e43928143eb99ecbf9, type: 3}
       propertyPath: m_Name
       value: Shooter
+      objectReference: {fileID: 0}
+    - target: {fileID: 2440972601234158311, guid: 7448512ee8cc90e43928143eb99ecbf9, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3631586498441481107, guid: 7448512ee8cc90e43928143eb99ecbf9, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
